@@ -20,3 +20,15 @@
 -- Categorize sales into 3 group Morning, Afternoon, Evening find out which of the shift and number of invoices
 - Q9
 -- Identify 5 branch with highest decrese ratio in revenue compare to last year(current year 2023 and last year 2022)
+- Q10
+-- What are the top 3 highest-grossing product categories
+- Q11
+-- Which transaction had the highest profit margin
+- Q12
+-- What is the average rating given by customers in each city
+- Q13
+-- What is the average quantity of items sold per transaction for each product category
+- Q14
+-- Which branch has the highest average customer rating
+- Q15
+-- Which product category had the highest total sales on 05-01-2019
