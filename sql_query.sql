@@ -172,3 +172,49 @@ WHERE
   ls.revenue > cs.revenue
   order by revenue_decrease_ratio desc
   limit 5;
+
+-- Q 10
+-- What are the top 3 highest-grossing product categories
+select
+category,sum(total)as category_sales
+from walmart
+group by category
+order by category_sales desc
+limit 5;
+
+-- Q 11
+-- Which transaction had the highest profit margin
+select * from walmart
+order by profit_margin desc
+limit 5;
+
+-- Q 12
+-- What is the average rating given by customers in each city
+select city, avg(rating)as avg_rating
+from  walmart
+group by city;
+
+-- Q 13
+-- What is the average quantity of items sold per transaction for each product category
+select category, avg(quantity)as avg_quantity_sold
+from walmart
+group by category;
+
+-- Q 14
+-- Which branch has the highest average customer rating
+select branch, avg(rating)as avg_rating
+from walmart
+group by branch
+order by avg_rating desc
+limit 5;
+
+
+-- Q 15
+-- Which product category had the highest total sales on 05-01-2019
+select
+category, sum(total)as total_sales
+from walmart
+where date = '05-01-2019'
+group by category
+order by total_sales desc
+limit 5;
