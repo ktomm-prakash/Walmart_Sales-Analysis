@@ -1,7 +1,7 @@
 # Walmart_Sales-Analysis
 
 -- Business Problems
-. Q1
+- Q1
 -- Find different payment method and number of transactions, number of qty sold
 . Q2
 -- Identify the highest-rated category in each branch, displaying the branch, category avg rating
